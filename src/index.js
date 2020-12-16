@@ -4,7 +4,7 @@ import "normalize.css";
 import App from "./App";
 import { GlobalStyles } from "./global-styles";
 import { firebase } from "./lib/firebase.prod";
-import reportWebVitals from "./reportWebVitals";
+// import reportWebVitals from "./reportWebVitals";
 import { FirebaseContext } from "./context/firebase";
 render(
   <React.Fragment>
@@ -16,4 +16,4 @@ render(
   document.getElementById("root")
 );
 
-reportWebVitals();
+// reportWebVitals();
