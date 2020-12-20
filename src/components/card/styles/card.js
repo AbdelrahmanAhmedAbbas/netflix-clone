@@ -10,6 +10,7 @@ export const Title = styled.p`
 `;
 
 export const Container = styled.div`
+  text-align: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
